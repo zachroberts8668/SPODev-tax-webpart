@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tax-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tax/TaxWebPart.js",
+          "manifest": "./src/webparts/tax/TaxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TaxWebPartStrings": "lib/webparts/tax/loc/{locale}.js"
+  }
+}

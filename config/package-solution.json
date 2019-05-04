@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tax-webpart-client-side-solution",
+    "id": "eeb896ef-a5e1-459a-ae68-0e5f7259b6cd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/tax-webpart.sppkg"
+  }
+}
